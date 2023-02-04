@@ -1,0 +1,112 @@
+{
+    "packages": [
+      {
+        "name": "GD32Vduino",
+        "websiteURL": "https://github.com/onelife/gd32vduino",
+        "maintainer": "onelife",
+        "email": "onelife.real@gmail.com",
+        "help": {
+          "online": "https://github.com/onelife/gd32vduino"
+        },
+        "platforms": [
+          {
+            "name": "GD32V MCU based boards",
+            "architecture": "gd32v",
+            "version": "0.1.1",
+            "category": "Contributed",
+            "url": "https://raw.githubusercontent.com/onelife/gd32vduino/main/packages/longduino-core-0.1.1.zip",
+            "archiveFileName": "longduino-core-0.1.1.zip",
+            "checksum": "SHA-256:05D0A3B46D20F3E528C847229D1583A7209460AC94EFFB652DBEFEBF8C0CE969",
+            "size": "263516",
+            "boards": [
+              {
+                "name": "Sipeed Longan Nano"
+              },
+              {
+                "name": "GD32VF103 EVAL Board"
+              }
+            ],
+            "toolsDependencies": [
+              {
+                "packager": "GD32Vduino",
+                "version": "9.2.0",
+                "name": "riscv-nuclei-elf-gcc"
+              },
+              {
+                "packager": "GD32Vduino",
+                "version": "0.1.1",
+                "name": "openocd"
+              },
+              {
+                "packager": "GD32Vduino",
+                "version": "0.1.0",
+                "name": "gd32vflash"
+              }
+            ]
+          }
+        ],
+        "tools": [
+          {
+            "name": "riscv-nuclei-elf-gcc",
+            "version": "9.2.0",
+            "systems": [
+              {
+                "host": "i686-mingw32",
+                "url": "https://www.dropbox.com/s/upb9mew51b9l0s0/riscv-nuclei-elf-gcc-9.2.0.zip?dl=1",
+                "archiveFileName": "riscv-nuclei-elf-gcc-9.2.0.zip",
+                "checksum": "SHA-256:6BCED9A76D1D2A662F3F439ABA370290924A0482BB675317CFFEF05F7FC46E75",
+                "size": "122883738"
+              },
+              {
+                "host": "x86_64-linux-gnu",
+                "url": "https://www.dropbox.com/s/sap2pm7pnlgtdlw/toolchain-gd32v-v9.2.0-linux.tar.bz2?dl=1",
+                "archiveFileName": "toolchain-gd32v-v9.2.0-linux.tar.bz2",
+                "checksum": "SHA-256:c63b7fb0604d3b3f316e2e47bc4aa1a8be8c6f1b292628b24a4db11bf27b4176",
+                "size": "114839827"
+              }
+            ]
+          },
+          {
+            "version": "0.1.1",
+            "name": "openocd",
+            "systems": [
+              {
+                "host": "i686-mingw32",
+                "url": "https://raw.githubusercontent.com/onelife/gd32vduino/main/tools/tools-openpcd-0.1.1.zip",
+                "archiveFileName": "tools-openocd-0.1.1.zip",
+                "checksum": "SHA-256:45F5C0D471CC55CA04B778C181D486A6D977D35FEC20ECDCAB6F2CA4C0BFE565",
+                "size": "3025699"
+              },
+              {
+                "host": "x86_64-linux-gnu",
+                "url": "https://raw.githubusercontent.com/onelife/gd32vduino/main/tools/tool-openocd-gd32v-v0.1.1-linux.tar.bz2",
+                "archiveFileName": "tool-openocd-gd32v-v0.1.1-linux.tar.bz2",
+                "checksum": "SHA-256:61808055a2286bd72d3cd969aacf5e156cba41103987a6cfcbf0351d8b7d1706",
+                "size": "6325757"
+              }
+            ]
+          },
+          {
+            "version": "0.1.0",
+            "name": "gd32vflash",
+            "systems": [
+              {
+                "host": "i686-mingw32",
+                "url": "https://raw.githubusercontent.com/onelife/gd32vduino/main/tools/gd32vflash-0.1.0.zip",
+                "archiveFileName": "gd32vflash-0.1.0.zip",
+                "checksum": "SHA-256:EBD57FD52FD8144F14DA762F735485BE0DA7CC2C3496C5D4031AA3A88BE49C3B",
+                "size": "161256"
+              },
+              {
+                "host": "x86_64-linux-gnu",
+                "url": "https://raw.githubusercontent.com/onelife/gd32vduino/main/tools/tool-gd32vflash-v0.1.0-linux.tar.bz2",
+                "archiveFileName": "tool-gd32vflash-v0.1.0-linux.tar.bz2",
+                "checksum": "SHA-256:f103273e0eda239add917b34ef966b90949e4bd040a14869afa6071728227649",
+                "size": "122018"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
